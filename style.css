@@ -1,0 +1,298 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.bar{
+  width: 100%;
+  padding: 3px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  color: white;
+  font-size: 0.8em;
+  font-family: Tahoma;
+}
+.navleft a{
+  font-size: 1.1em;
+  color: white
+}
+.navright a{
+color: white;
+padding-right: 15px;
+
+}
+.navright i{
+  font-size: 0.8em;
+}
+.navright img{
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right:14%;
+  transform: rotate(28deg)
+}
+.bar label{
+  position: absolute;
+  font-size: 2em;
+  color: transparent;
+
+  
+
+}
+#toggle{
+  display: none;
+
+}
+
+@media(max-width:640px){
+  .bar{
+    display: block;
+    align-items: center;
+  }
+  .navleft{
+    margin-left: 3%;
+  }
+  .navright{
+    text-align: center;
+    display: none;
+    margin-left: 3%;
+  }
+  .navright a{
+    text-align: center;
+   
+  }
+  .bar label{
+    display: block;
+    position: absolute;
+    color: grey;
+    top: -8px;
+    right:0px;
+  }
+
+  #toggle:checked + .navright{
+    display: block;
+  }
+  .navright img{
+    display: none;
+  }
+}
+.bar1{
+  margin: 1%;
+  display: flex;
+  flex-basis: 25%;
+  justify-content: space-around;
+  align-items: center;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+}
+#search_cat{
+  width: 100px;
+  border-style: none;
+  outline-style: none;
+  border-right: 1 px solid green;
+}
+.inputGrop{
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+
+}
+.inputGrop input{
+ border-style:none;
+ outline-style: none;
+ width: 25vw;
+}
+
+.inputGrop button{
+  border: none;
+  outline:0!important;
+  background-color: #fff;
+}
+.inputGrop button i{
+  color: green;
+  font-size: 1em;
+}
+.hotline{
+  width: 300px;
+  border: 2px solid red;
+}
+.hotline img{
+  width: 34px;
+  padding: 2px;
+}
+.hotline span{
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+.item{
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: green;
+  width: 300px;
+}
+.item i{
+  color: white;
+  flex-basis: 30%;
+}
+.item a{
+  color: white;
+}
+@media(max-width:640px){
+  .bar1{
+    display: block;
+    margin: 2%;
+  }
+  .logo{
+    width: 90%;
+  }
+  .input{
+    width: 100%;
+  }
+  .inputGrop input{
+    width: 60vw;
+  }
+  .hotline{
+    width: 100%;
+    margin: 2% 0 2% 0;
+  }
+  .item{
+    width: 100%;
+  }
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ position: fixed;
+ top: 30%;
+ right: 0%;
+}
+.social a{
+  display: flex;
+  align-items: center;
+}
+.social a i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+ height: 40px;
+ width: 40px;
+ 
+}
+.g{
+  background: tomato;
+}
+.f{
+  background: #1565C0
+}
+.t{
+  background: #00695C;
+}
+.i{
+  background: #EF5350;
+}
+@media(max-width:640px){
+  .social{
+    display: none;
+  }
+}
+
+.hadding{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.togglebtn {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.hadding h2{
+  font-size: 1.5em;
+}
+.hadding span{
+  color: gray;
+  font-size: 1.2em;
+}
+
+.button {
+  flex-basis: 100%;
+}
+
+.button .btn{
+  text-align: center;
+}
+@keyframes allbutton{
+ from{
+  transform: translate(0px,0px)
+ }
+ to{
+  transform: translate(0%,10px)
+ }
+}
+
+.slide2{
+  height: 200px;
+  width: 200px;
+}
+.pro-box{
+  border: 1px solid #F5F5F5;
+  text-align: center;
+}
+.hover-view-action{
+  background: #00695C;
+}
+.hover-view-action a i{
+  color: white;
+}
+.pro-name{
+  border-bottom: 2px solid #F5F5F5;
+  margin: 1%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pro-name a{
+  color: black;
+  font-size: 0.8em;
+  text-align: center;
+
+}
+.price{
+  font-weight: bold;
+  color: green;
+  
+}
+.action-box{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+.action-box button{
+  font-size: 0.88em;
+  color: white;
+  background-color: #1565C0
+}
+.boder{
+  border-top: 2px solid #EF5350;
+  padding-top: 1.5%;
+}
+.carousel-item img{
+  height: 350px;
+}
