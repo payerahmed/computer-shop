@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif; 
 }
 .bar{
   width: 100%;
@@ -14,7 +15,7 @@ body{
   font-family: Tahoma;
 }
 .navleft a{
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: white
 }
 .navright a{
@@ -29,7 +30,7 @@ padding-right: 15px;
   height: 50px;
   position: absolute;
   top: 0;
-  right:14%;
+  right:0;
   transform: rotate(28deg)
 }
 .bar label{
@@ -60,7 +61,10 @@ padding-right: 15px;
   }
   .navright a{
     text-align: center;
-   
+
+  }
+  .navright a:hover{
+    text-decoration: none;
   }
   .bar label{
     display: block;
@@ -88,15 +92,17 @@ padding-right: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid green;
+  border: 1px solid #18ac4f;;
 }
 #search_cat{
-  width: 100px;
+  width: 150px;
   border-style: none;
   outline-style: none;
-  border-right: 1 px solid green;
+  border: 1 px solid #18ac4f;;
 }
+
 .inputGrop{
+  position: relative;
   display: flex;
   padding: 5px;
   justify-content: center;
@@ -105,7 +111,7 @@ padding-right: 15px;
 .inputGrop input{
  border-style:none;
  outline-style: none;
- width: 25vw;
+ width: 23vh;
 }
 
 .inputGrop button{
@@ -114,12 +120,14 @@ padding-right: 15px;
   background-color: #fff;
 }
 .inputGrop button i{
-  color: green;
+  color: #18ac4f;
   font-size: 1em;
+  right: 0;
 }
 .hotline{
-  width: 300px;
+  padding: 0px 20px 0px 0px;
   border: 2px solid red;
+  border-radius: 5px;
 }
 .hotline img{
   width: 34px;
@@ -135,14 +143,14 @@ padding-right: 15px;
   border-radius: 5px;
   display: flex;
   align-items: center;
-  background-color: green;
-  width: 300px;
+  background-color: #18ac4f;
 }
 .item i{
   color: white;
   flex-basis: 30%;
 }
 .item a{
+  padding: 0 10px 0 10px;
   color: white;
 }
 @media(max-width:640px){
@@ -191,16 +199,16 @@ padding-right: 15px;
  
 }
 .g{
-  background: tomato;
+  background-color: tomato;
 }
 .f{
-  background: #1565C0
+  background-color: #4267b2;
 }
 .t{
-  background: #00695C;
+  background-color: #1da1f2;
 }
 .i{
-  background: #EF5350;
+  background-color: #EF5350;
 }
 @media(max-width:640px){
   .social{
@@ -209,10 +217,14 @@ padding-right: 15px;
 }
 
 .hadding{
+  margin: 20px 0 0px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+}
+.hadding h2{
+  font-size: 20px;
 }
 
 .togglebtn {
@@ -225,7 +237,7 @@ padding-right: 15px;
 }
 .hadding span{
   color: gray;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .button {
@@ -253,10 +265,15 @@ padding-right: 15px;
   text-align: center;
 }
 .hover-view-action{
-  background: #00695C;
+  background: #18ac4f;;
 }
 .hover-view-action a i{
   color: white;
+}
+@media(max-width:640px){
+  .hover-view-action{
+   margin: 0 20% 0 20%;
+  }
 }
 .pro-name{
   border-bottom: 2px solid #F5F5F5;
@@ -270,24 +287,31 @@ padding-right: 15px;
   color: black;
   font-size: 0.8em;
   text-align: center;
+  text-decoration: none;
 
+}
+.pro-name a:hover{
+  text-decoration: none;
 }
 .price{
   font-weight: bold;
-  color: green;
-  
+  color: #18ac4f;;
 }
 .action-box{
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
+  font-weight: bold;
 
 }
 .action-box button{
   font-size: 0.88em;
-  color: white;
-  background-color: #1565C0
+  border-style: none;
+  outline-style: none;
+}
+.add_to_cart button{
+  margin-left: 2px;
 }
 .boder{
   border-top: 2px solid #EF5350;
@@ -295,4 +319,15 @@ padding-right: 15px;
 }
 .carousel-item img{
   height: 350px;
+}
+.carousel-indicators li{
+height: 10px;
+width: 10px;
+border-radius: 50%;
+}
+.nav-tabs{
+  margin-bottom: 2%;
+}
+.mar{
+  margin-top: 2%;
 }
