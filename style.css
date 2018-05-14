@@ -81,7 +81,7 @@ padding-right: 15px;
   border: 1px solid #18ac4f;;
 }
 #search_cat{
-  width: 150px;
+  width: 130px;
   border-style: none;
   outline-style: none;
   border: 1 px solid #18ac4f;;
@@ -97,7 +97,6 @@ padding-right: 15px;
 .inputGrop input{
  border-style:none;
  outline-style: none;
- width: 23vh;
 }
 
 .inputGrop button{
@@ -108,7 +107,6 @@ padding-right: 15px;
 .inputGrop button i{
   color: #18ac4f;
   font-size: 1em;
-  right: 0;
 }
 .hotline{
   padding: 0px 20px 0px 0px;
@@ -151,7 +149,7 @@ padding-right: 15px;
     width: 100%;
   }
   .inputGrop input{
-    width: 60vw;
+    width: 50vw;
   }
   .hotline{
     width: 100%;
