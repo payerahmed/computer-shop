@@ -256,7 +256,7 @@ padding-right: 15px;
   text-align: center;
 }
 .hover-view-action{
-  background: #18ac4f;;
+  background: #18ac4f;
 }
 .hover-view-action a i{
   color: white;
@@ -300,7 +300,8 @@ padding-right: 15px;
   font-size: 0.88em;
   border-style: none;
   outline-style: none;
-  background-color:#18ac4f;;
+  background-color:#18ac4f;
+  color: #fff;
 }
 .add_to_cart button{
   margin-left: 2px;
